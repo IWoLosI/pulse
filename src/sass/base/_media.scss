@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+}
+}
+@media (max-width: 767px) {
+    .header {
+        justify-content: space-around;
+        &__official {
+            display: none;
+        }
+    }
+    
+    .promo {
+        padding: 21px 0 0 0;
+        &__wrapper {
+            margin-top: 45px;
+        }
+        &__header {
+            font-size: 35px;
+        }
+    }
+    .carousel {
+        .slick-next {
+            display: none;
+        }
+    }
+    .consultation {
+        .container {
+            padding-left: 30px;
+        }
+        .title_left {
+            font-size: 30px;
+        }
+        
+    }
+}
+    
