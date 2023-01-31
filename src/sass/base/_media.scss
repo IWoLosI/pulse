@@ -23,18 +23,140 @@
         }
     }
     .carousel {
-        .slick-next {
-            display: none;
+        &__inner {
+            width: 100%;
         }
     }
     .consultation {
-        .container {
-            padding-left: 30px;
-        }
         .title_left {
             font-size: 30px;
         }
         
     }
 }
+@media (max-width: 576px) {
+    .promo {
+        padding: 35px 10px 30px 10px;
+        min-height: 590px;
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+        &__icons {
+            width: 100%;
+            margin-top: 35px;
+        }
+        .button_main {
+            margin-top: 50px;
+            width: 250px;
+            height: 45px;
+            font-size: 15px;
+            line-height: 16px;
+        }
+        .header {
+            &__logo {
+                width: 170px;
+            }
+            &__phone {
+                font-size: 17px;
+            }
+        }
+    }
+    .advantages {
+        padding: 35px 0 0 0;
+        min-height: 810px;
+        &__item {
+            margin-top: 35px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-bottom: 30px;
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .consultation {
+        padding: 35px 10px 30px 10px;
+    }
+    .carousel {
+        padding: 35px 35px;
+        &__inner {
+            img {
+                width: 33%;
+            }
+        }
+    }
+    
+    .catalog {
+        padding-bottom: 0;
+        .title {
+            font-size: 24px;
+        }
+        &__tabs {
+            flex-direction: column;
+            margin-top: 25px;
+        }
+        &__tab {
+            width: 200px;
+            font-size: 16px;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+        &__content {
+            justify-content: center;
+        }
+    }
+    .feed {
+        padding: 35px 0 0 0;
+        &__item {
+            display: block;
+            margin-top: 30px;
+        }
+        &__item:nth-child(2) {
+            margin-top: 30px;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        .title {
+            font-size: 25px;
+        }
+        &__text {
+            padding: 20px;
+            margin: 0;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+            height: 210px;
+            padding: 20px 15px 20px 15px;
+        }
+        &__addr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__social-item {
+            width: 45px;
+            height: 45px;
+        }
+
+    }
+    .pageup {
+        right: 100px;
+    }
+}
+    
     

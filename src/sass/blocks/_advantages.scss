@@ -2,28 +2,34 @@
     min-height: 473px;
     background: #F6F6F6;
     padding: 70px 0 85px 0;
-    &__icons {
+    &__item {
         height: 245px;
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
     }
-    &_icon {
+    &__subtitle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #0D0D0D;
+        margin-bottom: 20px;
+    }
+    &__icon {
         width: 269px;
+        &_animated {
+            animation: heartbeat 1.5s ease 1s infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
         a {
             text-decoration: none;
             color:#FF0000;
         }
-        span {
-            display: block;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 29px;
-            text-align: center;
-            color: #0D0D0D;
-            margin-bottom: 20px;
-        }
+    
         font-style: normal;
         font-weight: 300;
         font-size: 14px;

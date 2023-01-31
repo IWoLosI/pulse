@@ -22,6 +22,8 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "install": "^0.13.0",
@@ -29,10 +31,9 @@
     "saa": "^1.0.0",
     "sass": "^1.57.1"
   },
-
-"browserslist": [
-  "last 1 version",
-  "> 1%",
-  "not dead"
-]
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead"
+  ]
 }
